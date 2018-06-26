@@ -2,7 +2,7 @@
 [all]
 bears = coalaBear, FilenameBear, LineCountBear, InvalidLinkBear
 files = **.py, **.md
-max_lines_per_file = 80
+max_lines_per_file = 100
 [all.python]
 bears = DocGrammarBear, PycodestyleBear, DocumentationStyleBear
 files = **.py
