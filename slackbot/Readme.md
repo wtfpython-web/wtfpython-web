@@ -1,48 +1,62 @@
-# Slack Bot For Github 
+# Slack Bot For Github Configuration Guide
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/Dhiraj240/Slack-Test" data-size="large" data-show-count="true" aria-label="Star Dhiraj240/Slack-Test on GitHub">Star</a>
 
-This is a typical slack bot which uses Slack API to make the bot into conversation for newbies.
-Follow the steps and use @army_brat as prefix for the below commands.
+It is highly recommended to setup a virtual environment.
+You can follow [This link to install virtualenv!](https://virtualenv.pypa.io/en/latest/installation/) 
+After that typein :
+```
+virtualenv <-any environment-name-you-want>
+
+For me i wrote :
+virtualenv env
+```
+
+## Activate your environment
+
+```
+env\scripts\activate
+```
+As my environment name was ```env``` so i used this prefix with above command.
+For you it can be anything :+1:
+
+## Install requirements
+
+```
+pip install -r requirements.txt
+```
+
+## Set Slack Bot Token
+
+```
+set SLACK_BOT_TOKEN=xxxxxxxxx
+```
+Here ```xxxxxxxxxx``` is your slack bot token
+
+## Run Below Script 
+
+```
+python bot_id.py
+```
+You will get a ```BOT_ID``` which will be generated automatically by the above script.
+
+## Set BOT ID
+
+```
+set BOT_ID=xxxxx
+```
+Here ```xxxxx``` is your generated BOT_ID from the above script
+
+## Run Below Script
+
+```
+python army_brat.py
+```
+
+## Join Slack And Play with ```@army_brat``` 
+
+Add this bot to your channel and replace the code accordingly.Then head on to the link [BOT_COMMANDS_TO_BE_EXECUTED_ON_SLACK](https://github.com/Dhiraj240/Slack-Test/blob/master/Guidelines.md)
 
 ## Note
 
-```
-We are using @army_brat as prefix so that bot can get a notification 
-```
-## New To Opensource
-
-Write ``` @army_brat help ``` and read carefully.
-
-###### Type in the commands accordingly:
-
-1.Get invitation to our organisation
-```
-@army_brat invite me
-```
-2.Before gazing into issues look at our  contribution guidelines
-```
-@army_brat guide me
-```
-3.Have a look at unassigned issues
-```
-@army_brat issues available
-```
-4.Else create a new issue 
-```
-@army_brat create issue
-or
-/github open owner/repository
-```
-5.Open or Close an existing issue
-```
-/github reopen <issue-link>
-or
-/github close <issue-link>
-```
-6.Ask any mentor to assign it for you
-```
-@army_brat assign issue
-```
-7.Use bot to save or copy what you type
-```
-@army_brat copy <write-whatever-you-want>
-```
+###### The commands you are executing must be done in a virtual environment because this project has different dependencies and if you do not follow it, then there may be the case that it can hamper your someother project.
