@@ -1,15 +1,6 @@
 # Slack Bot For Github Configuration Guide
-<!-- Place this tag where you want the button to render. -->
-<html>
-<head><!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-<body>
-	<title>
-<a class="github-button" href="https://github.com/Dhiraj240/Slack-Test" data-size="large" data-show-count="true" aria-label="Star Dhiraj240/Slack-Test on GitHub">Star</a>
-</title>
-</body>
-</head>
-</html>
+
+<a class="github-button" href="https://github.com/Dhiraj240/Slack-Test" data-size="large" data-show-count="true" aria-label="Star Dhiraj240/Slack-Test on GitHub">Star Me</a>
 
 It is highly recommended to setup a virtual environment.
 You can follow [This link to install virtualenv!](https://virtualenv.pypa.io/en/latest/installation/) 
