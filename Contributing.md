@@ -1,4 +1,4 @@
-# Contribution Guide -WTF
+# WTFpython contribution guide
 Please read through it carefully, it helps both the contributors (you) and maintainers be more efficient.
 
 # Step 1. Get an Invitation to the Organization
@@ -73,7 +73,7 @@ Before committing your changes, please check that you are indeed in a developmen
 
 $ git branch
 
-Your current branch will have an asterisk (*) next to it. Ensure that there is no asterisk next to the master branch.
+Your current branch will have an asterisk (\*) next to it. Ensure that there is no asterisk next to the master branch.
 
 Now that you’ve fixed the issue, you’ve tested it, and you think it is ready to be merged, create a commit and push it to your fork, using:
 
